@@ -169,7 +169,7 @@ const getQuery = function () {
     var arg = {};
     var pairs = location.search.substring(1).split('&');
     for (var pair of pairs) {
-        var kv = decodeURIComponent(pair.split('='));
+        var kv = pair.split('=');
         arg[kv[0]] = kv[1];
     }
     return arg;
