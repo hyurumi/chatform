@@ -1,0 +1,11 @@
+textarea {
+    height: 200px !important;
+}
+
+.hide { 
+    display: none;
+}
+
+.show {
+    display: block;
+}

@@ -1,0 +1,745 @@
+[
+    {
+        "portalId": 2398438,
+        "guid": "219bafd3-bd8b-459b-a7fc-4f92567c9b3c",
+        "name": "Form for downloading Ebooks",
+        "action": "",
+        "method": "POST",
+        "cssClass": "hs-form stacked",
+        "redirect": "",
+        "submitText": "Download E-Book",
+        "followUpId": "",
+        "notifyRecipients": "",
+        "leadNurturingCampaignId": "",
+        "formFieldGroups": [
+            {
+                "fields": [
+                    {
+                        "name": "email",
+                        "label": "Email",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": -1,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "email",
+                            "message": "Please enter a valid email address",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "firstname",
+                        "label": "First Name",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": -1,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": true,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    },
+                    {
+                        "name": "lastname",
+                        "label": "Last Name",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": -1,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": true,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": true,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "twitterhandle",
+                        "label": "Twitter Username",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "",
+                        "displayOrder": -1,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": true,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": true,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "company",
+                        "label": "Company Name",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "",
+                        "displayOrder": -1,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": true,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": false,
+                "isSmartGroup": true,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "message",
+                        "label": "Message",
+                        "type": "string",
+                        "fieldType": "textarea",
+                        "description": "",
+                        "groupName": "",
+                        "displayOrder": -1,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": true,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": false,
+                "isSmartGroup": true,
+                "richText": {
+                    "content": ""
+                }
+            }
+        ],
+        "createdAt": 1468510844326,
+        "updatedAt": 1469680088292,
+        "performableHtml": "",
+        "migratedFrom": "",
+        "ignoreCurrentValues": false,
+        "metaData": [],
+        "deletable": true,
+        "inlineMessage": "",
+        "tmsId": "",
+        "captchaEnabled": false,
+        "campaignGuid": "",
+        "cloneable": true,
+        "editable": true,
+        "formType": "HUBSPOT"
+    },
+    {
+        "portalId": 2398438,
+        "guid": "35cd32db-f632-45ed-bd07-6ebfe882d18e",
+        "name": "Default HubSpot Blog Comments Form",
+        "action": "",
+        "method": "POST",
+        "cssClass": "hs-form stacked",
+        "redirect": "",
+        "submitText": "Submit Comment",
+        "followUpId": "",
+        "notifyRecipients": "",
+        "leadNurturingCampaignId": "",
+        "formFieldGroups": [
+            {
+                "fields": [
+                    {
+                        "name": "firstname",
+                        "label": "First Name",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 0,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "lastname",
+                        "label": "Last Name",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 1,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "email",
+                        "label": "Email",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 2,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "website",
+                        "label": "Website",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 3,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "comment",
+                        "label": "Comment",
+                        "type": "string",
+                        "fieldType": "textarea",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 4,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "subscribe",
+                        "label": "Subscribe to follow-up comments for this post",
+                        "type": "bool",
+                        "fieldType": "booleancheckbox",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 5,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "lifecyclestage",
+                        "label": "Lifecycle Stage",
+                        "type": "enumeration",
+                        "fieldType": "radio",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 6,
+                        "required": false,
+                        "selectedOptions": [
+                            "subscriber"
+                        ],
+                        "options": [
+                            {
+                                "label": "Subscriber",
+                                "value": "subscriber",
+                                "displayOrder": 0,
+                                "doubleData": 0.0,
+                                "hidden": false,
+                                "description": "",
+                                "readOnly": false
+                            }
+                        ],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": true,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            }
+        ],
+        "createdAt": 1467810105792,
+        "updatedAt": 1467810108715,
+        "performableHtml": "",
+        "migratedFrom": "",
+        "ignoreCurrentValues": false,
+        "metaData": [],
+        "deletable": false,
+        "inlineMessage": "",
+        "tmsId": "",
+        "captchaEnabled": false,
+        "campaignGuid": "",
+        "cloneable": true,
+        "editable": true,
+        "formType": "HUBSPOT"
+    },
+    {
+        "portalId": 2398438,
+        "guid": "ef3fd95b-54db-4320-b18f-64c30cd97ae9",
+        "name": "Subscribe to The theory of the Sim card for living Japan Notifications",
+        "action": "",
+        "method": "POST",
+        "cssClass": "hs-form stacked",
+        "redirect": "",
+        "submitText": "Subscribe",
+        "followUpId": "",
+        "notifyRecipients": "",
+        "leadNurturingCampaignId": "",
+        "formFieldGroups": [
+            {
+                "fields": [
+                    {
+                        "name": "email",
+                        "label": "Email",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 0,
+                        "required": true,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "blog_default_hubspot_blog_subscription",
+                        "label": "Notification Frequency",
+                        "type": "enumeration",
+                        "fieldType": "radio",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 1,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": true,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            },
+            {
+                "fields": [
+                    {
+                        "name": "lifecyclestage",
+                        "label": "Lifecycle Stage",
+                        "type": "enumeration",
+                        "fieldType": "radio",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": 2,
+                        "required": false,
+                        "selectedOptions": [
+                            "subscriber"
+                        ],
+                        "options": [
+                            {
+                                "label": "Subscriber",
+                                "value": "subscriber",
+                                "displayOrder": 0,
+                                "doubleData": 0.0,
+                                "hidden": false,
+                                "description": "",
+                                "readOnly": false
+                            }
+                        ],
+                        "validation": {
+                            "name": "",
+                            "message": "",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": true,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            }
+        ],
+        "createdAt": 1467810102511,
+        "updatedAt": 1468775207559,
+        "performableHtml": "",
+        "migratedFrom": "",
+        "ignoreCurrentValues": false,
+        "metaData": [],
+        "deletable": false,
+        "inlineMessage": "",
+        "tmsId": "",
+        "captchaEnabled": false,
+        "campaignGuid": "",
+        "cloneable": true,
+        "editable": true,
+        "formType": "HUBSPOT"
+    },
+    {
+        "portalId": 2398438,
+        "guid": "fcd49bc5-a6ca-434c-959a-6b6f27f6fffa",
+        "name": "DummyForm",
+        "action": "",
+        "method": "POST",
+        "cssClass": "hs-form stacked",
+        "redirect": "",
+        "submitText": "Subscribe",
+        "followUpId": "",
+        "notifyRecipients": "",
+        "leadNurturingCampaignId": "",
+        "formFieldGroups": [
+            {
+                "fields": [
+                    {
+                        "name": "email",
+                        "label": "",
+                        "type": "string",
+                        "fieldType": "text",
+                        "description": "",
+                        "groupName": "contactinformation",
+                        "displayOrder": -1,
+                        "required": false,
+                        "selectedOptions": [],
+                        "options": [],
+                        "validation": {
+                            "name": "email",
+                            "message": "Please enter a valid email address",
+                            "data": "",
+                            "useDefaultBlockList": false,
+                            "blockedEmailAddresses": []
+                        },
+                        "enabled": true,
+                        "hidden": false,
+                        "defaultValue": "",
+                        "isSmartField": false,
+                        "unselectedLabel": "",
+                        "placeholder": "hogehoge@email.com",
+                        "dependentFieldFilters": [],
+                        "labelHidden": false
+                    }
+                ],
+                "default": true,
+                "isSmartGroup": false,
+                "richText": {
+                    "content": ""
+                }
+            }
+        ],
+        "createdAt": 1471225404240,
+        "updatedAt": 1471229787456,
+        "performableHtml": "",
+        "migratedFrom": "",
+        "ignoreCurrentValues": false,
+        "metaData": [],
+        "deletable": true,
+        "inlineMessage": "",
+        "tmsId": "",
+        "captchaEnabled": false,
+        "campaignGuid": "",
+        "cloneable": true,
+        "editable": true,
+        "formType": "HUBSPOT"
+    }
+]
